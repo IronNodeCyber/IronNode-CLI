@@ -1,0 +1,43 @@
+{
+  "name": "ironnode-cli",
+  "version": "2.4.1",
+  "description": "IronNode AI Security Agent — Interactive CLI utility for wallet security scanning, risk analysis, and blockchain diagnostics on TON Network",
+  "main": "cli.js",
+  "bin": {
+    "ironnode": "./cli.js"
+  },
+  "type": "commonjs",
+  "scripts": {
+    "start": "node cli.js",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [
+    "crypto",
+    "security",
+    "wallet",
+    "scanner",
+    "ton",
+    "cli",
+    "blockchain",
+    "risk-analysis",
+    "threat-detection"
+  ],
+  "author": "IronNode Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IronNodeCyber/IronNode-CLI.git"
+  },
+  "homepage": "https://github.com/IronNodeCyber/IronNode-CLI#readme",
+  "bugs": {
+    "url": "https://github.com/IronNodeCyber/IronNode-CLI/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^16.3.1",
+    "ethers": "^5.7.2"
+  }
+}

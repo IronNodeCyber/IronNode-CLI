@@ -1,0 +1,38 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Project archives
+*.zip
+*.tar.gz
+*.tgz
+
+# Temporary push/helper scripts (contains sensitive tokens)
+push-to-github.bat
+prepare-assets.bat
+change-author.bat
+reset-git-history.bat
